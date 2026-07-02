@@ -152,32 +152,34 @@ Never lose your conversations.
 # 🔄 Application Workflow
 
 ```text
-User Speaks
-      │
-      ▼
-Speech Recognition
-      │
-      ▼
-Recognized Text
-      │
-      ▼
-Backend API
-      │
-      ▼
-Google Gemini AI
-      │
-      ▼
-AI Response
-      │
-      ├───────────────► Execute predefined action
-      │                     (Open Website/Search/etc.)
-      │
-      ▼
-Display Response
-      │
-      ▼
-Speak Response
+              Create Account
+                     │
+                     ▼
+              Login Securely
+                     │
+                     ▼
+      Choose Assistant Name & Avatar
+                     │
+                     ▼
+          Start Voice Conversation
+                     │
+                     ▼
+      Speech Recognition (STT)
+                     │
+                     ▼
+        Google Gemini Processing
+                     │
+                     ▼
+      AI Response + Text-to-Speech
+                     │──────────────► Execute predefined action
+                     │                (Open Website/Search/etc.)
+                     ▼
+        Conversation Saved Automatically
+                     │
+                     ▼
+       View History Anytime Later
 ```
+
 
 ---
 
