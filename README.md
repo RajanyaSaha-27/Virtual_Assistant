@@ -35,6 +35,19 @@ The project combines **Speech Recognition**, **Generative AI**, **Text-to-Speech
 
 # ✨ Features
 
+### 👤 Personalized AI Assistant
+
+Every user gets their own personalized virtual assistant.
+
+- Secure Login & Signup
+- Create your own AI assistant
+- Choose assistant name
+- Select assistant avatar
+- Edit assistant profile anytime
+- Personalized conversations
+
+---
+
 ### 🤖 AI Capabilities
 
 - Google Gemini powered intelligent conversations
@@ -55,12 +68,29 @@ The project combines **Speech Recognition**, **Generative AI**, **Text-to-Speech
 
 ---
 
-### 🔊 Smart Responses
 
-- Text-to-Speech output
-- Human-like voice responses
-- Instant audio feedback
-- Dynamic response generation
+### 🌐 Smart Actions
+
+The assistant can perform various browser actions through voice commands.
+
+- Open Google
+- Open YouTube
+- Search on Google
+- Play YouTube videos
+- Tell Date & Time
+- Answer general questions
+- AI-powered explanations
+
+---
+
+### 💬 Conversation History
+
+Never lose your conversations.
+
+- Stores previous chats automatically
+- Saves all voice interactions
+- Chat history available anytime
+- Personalized conversation records
 
 ---
 
