@@ -517,7 +517,6 @@ Unlike a traditional chatbot, this assistant combines multiple AI-powered techno
 The project is designed to be scalable. Planned features include:
 
 - 📧 Email Assistant
-- 🌦️ Live Weather Information
 - 📰 Latest News Updates
 - 📅 Google Calendar Integration
 - ⏰ Smart Reminder System
@@ -562,12 +561,6 @@ Feel free to use, modify, and distribute it in accordance with the license.
 ### Rajanya Saha
 
 **B.Tech CSE (AI & ML)**
-
-Passionate about Artificial Intelligence, Full Stack Development, Machine Learning, and building impactful AI applications.
-
-**GitHub**
-
-> https://github.com/RajanyaSaha-27
 
 ---
 
