@@ -244,43 +244,64 @@ Never lose your conversations.
 ```text
 Virtual_Assistant/
 │
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── Card.jsx
-│   │   ├── context/
-│   │   │    ├── UserContext.jsx
-│   ├── index.html
-│  
-│   │
-│   ├── pages/
-│   │   ├── SignIn.jsx
-│   │   ├── SignUp.jsx
-│   │   ├── Customize.jsx
-│   │   ├── Customize2.jsx
-│   │   ├── Home.jsx
-│   │
-│   ├── assets/
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── package.json
-│
 ├── backend/
+│   ├── config/
+│   │   ├── cloudinary.js
+│   │   ├── db.js
+│   │   └── token.js
+│   │
 │   ├── controllers/
-│   │      └── assistantController.js
+│   │   ├── auth.controllers.js
+│   │   └── user.controllers.js
+│   │
+│   ├── middlewares/
+│   │   ├── isAuth.js
+│   │   └── multer.js
+│   │
+│   ├── models/
+│   │   └── user.model.js
+│   │
+│   ├── public/
 │   │
 │   ├── routes/
-│   │      └── assistantRoutes.js
+│   │   ├── auth.routes.js
+│   │   └── user.routes.js
 │   │
-│   ├── config/
-│   │      └── gemini.js
-│   │
-│   ├── server.js
+│   ├── gemini.js
+│   ├── index.js
 │   ├── package.json
-│   └── .env
+│   └── package-lock.json
 │
-├── README.md
-└── .gitignore
+├── frontend/
+│   ├── public/
+│   │   └── vite.svg
+│   │
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   └── Card.jsx
+│   │   │
+│   │   ├── context/
+│   │   │   └── UserContext.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── SignIn.jsx
+│   │   │   ├── SignUp.jsx
+│   │   │   ├── Customize.jsx
+│   │   │   └── Customize2.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   │
+│   ├── index.html
+│   ├── vite.config.js
+│   ├── package.json
+│   └── package-lock.json
+│
+├── .gitignore
+└── README.md
 ```
 
 ---
