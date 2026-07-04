@@ -406,3 +406,177 @@ http://localhost:5173
 Open the URL in your browser and allow microphone permission.
 
 ---
+
+# 🚀 Usage
+
+1. Launch both the backend and frontend servers.
+2. Open the application in your browser.
+3. Allow microphone permission when prompted.
+4. Click the microphone button and start speaking.
+5. The assistant converts your speech into text.
+6. Your request is sent to the backend.
+7. Google Gemini processes the request.
+8. The assistant replies with both **text** and **voice**.
+9. If the command matches a supported action, it performs that action automatically.
+
+---
+
+# 🎤 Example Voice Commands
+
+| Command | Action |
+|----------|--------|
+| "Hello" | Greets the user |
+| "Who are you?" | Introduces the assistant |
+| "Open Google" | Opens Google |
+| "Open YouTube" | Opens YouTube |
+| "Search AI News" | Searches Google |
+| "Play Lofi Music" | Opens YouTube search |
+| "What's today's date?" | Speaks today's date |
+| "What time is it?" | Speaks current time |
+| "Tell me a joke" | AI-generated response |
+| "Explain Machine Learning" | Gemini-generated explanation |
+
+---
+
+# 🧠 AI Request Pipeline
+
+```text
+        🎤 User Speaks
+              │
+              ▼
+     Speech Recognition API
+              │
+              ▼
+      Recognized User Query
+              │
+              ▼
+     React Frontend (Axios)
+              │
+              ▼
+     Express Backend Server
+              │
+              ▼
+        Google Gemini API
+              │
+      Intent Identification
+              │
+     ┌────────┴─────────┐
+     ▼                  ▼
+General AI        Action Command
+ Response          (Website/Search)
+     │                  │
+     └────────┬─────────┘
+              ▼
+      Structured Response
+              │
+              ▼
+      Text + Voice Output
+              │
+              ▼
+             User
+```
+
+---
+
+# 🌟 Why This Project?
+
+Unlike a traditional chatbot, this assistant combines multiple AI-powered technologies into a single seamless experience.
+
+✔️ Natural voice conversations
+
+✔️ Intelligent responses using Google Gemini
+
+✔️ Browser automation through voice commands
+
+✔️ Speech-to-Text + Text-to-Speech integration
+
+✔️ Modern React-based user interface
+
+✔️ Real-world full-stack architecture
+
+✔️ Easily extendable with new commands and integrations
+
+---
+
+# 🎯 Current Capabilities
+
+- ✅ Voice-based interaction
+- ✅ AI-powered conversations
+- ✅ Website automation
+- ✅ Google search
+- ✅ YouTube search
+- ✅ Date & Time assistance
+- ✅ Speech synthesis
+- ✅ Responsive UI
+- ✅ MERN architecture
+
+---
+
+# 🚧 Future Enhancements
+
+The project is designed to be scalable. Planned features include:
+
+- 📧 Email Assistant
+- 🌦️ Live Weather Information
+- 📰 Latest News Updates
+- 📅 Google Calendar Integration
+- ⏰ Smart Reminder System
+- 📂 File & Folder Operations
+- 📱 WhatsApp Message Automation
+- 🎵 Spotify Integration
+- 🏠 Smart Home Control
+- 🧠 Conversation Memory
+- 🌍 Multi-language Support
+- 📄 PDF Reading Assistant
+- 💻 Desktop Application (Electron)
+- 📱 Android Application
+
+---
+
+# 🤝 Contributing
+
+Contributions are always welcome!
+
+If you'd like to improve this project:
+
+1. Fork this repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Push your branch.
+5. Open a Pull Request.
+
+Every contribution, whether it's fixing a bug, improving the UI, or adding a new feature, is greatly appreciated.
+
+---
+
+# 📜 License
+
+This project is licensed under the **MIT License**.
+
+Feel free to use, modify, and distribute it in accordance with the license.
+
+---
+
+# 👨‍💻 Author
+
+### Rajanya Saha
+
+**B.Tech CSE (AI & ML)**
+
+Passionate about Artificial Intelligence, Full Stack Development, Machine Learning, and building impactful AI applications.
+
+**GitHub**
+
+> https://github.com/RajanyaSaha-27
+
+---
+
+<div align="center">
+
+## ⭐ If you like this project, don't forget to give it a Star!
+
+### Built with ❤️ using React, Node.js, Express & Google Gemini AI
+
+*"Technology becomes truly intelligent when interaction feels natural."*
+
+</div>
