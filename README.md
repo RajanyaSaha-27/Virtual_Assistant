@@ -201,41 +201,57 @@ Never lose your conversations.
 
 # 🧱 Tech Stack
 
-## Frontend
+## 🎨 Frontend
 
 | Technology | Purpose |
 |------------|---------|
-| React.js | User Interface |
+| React.js | Building the user interface |
 | Vite | Fast development & build tool |
-| HTML5 | Page structure |
-| CSS3 | Styling & Animations |
-| JavaScript (ES6+) | Frontend Logic |
+| HTML5 | Structure of the application |
+| CSS3 | Styling & Responsive Design |
+| JavaScript (ES6+) | Frontend logic |
 | Axios | API communication |
-| Web Speech API | Speech-to-Text |
-| Speech Synthesis API | Text-to-Speech |
+| React Context API | Global user state management |
+| Web Speech API | Speech-to-Text (Voice Recognition) |
+| Speech Synthesis API | Text-to-Speech (AI Voice Response) |
 
 ---
 
-## Backend
+## ⚙️ Backend
 
 | Technology | Purpose |
 |------------|---------|
-| Node.js | JavaScript Runtime |
-| Express.js | REST API Server |
-| Google Gemini API | AI Response Generation |
-| dotenv | Environment Variable Management |
-| CORS | Cross-Origin Requests |
+| Node.js | JavaScript runtime |
+| Express.js | REST API development |
+| MongoDB | NoSQL database |
+| Mongoose | MongoDB object modeling |
+| JWT (JSON Web Token) | User authentication |
+| Multer | File upload handling |
+| Cloudinary | Assistant avatar storage |
+| dotenv | Environment variable management |
+| CORS | Cross-origin resource sharing |
 
 ---
 
-## AI Components
+## 🤖 AI & Voice Technologies
 
-| Component | Function |
-|-----------|----------|
-| Speech Recognition | Converts voice into text |
-| Google Gemini | Natural language understanding & response generation |
+| Technology | Purpose |
+|------------|---------|
+| Google Gemini API | Natural language understanding & AI responses |
+| Speech Recognition API | Converts user speech into text |
+| Speech Synthesis API | Converts AI responses into voice |
 | Intent Detection | Determines whether to answer or perform an action |
-| Speech Synthesis | Converts AI response into voice |
+
+---
+
+## 🛠 Development Tools
+
+| Tool | Purpose |
+|------|---------|
+| Git | Version Control |
+| GitHub | Source Code Hosting |
+| npm | Package Management |
+| VS Code | Development Environment |
 
 ---
 
