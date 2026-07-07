@@ -324,29 +324,24 @@ Virtual_Assistant/
 
 # 📸 Preview
 
-> Replace these placeholders with actual screenshots after uploading them.
 
-### 🏠 Home Screen
+### 👤 SignUp/SignIn 
 
-```text
-assets/home.png
-```
+<img width="1918" height="907" alt="Screenshot 2026-07-07 155253" src="https://github.com/user-attachments/assets/a04a14ca-a908-4df6-9592-1dcaeaf921b0" />
 
 ---
 
 ### 🎤 Voice Interaction
 
-```text
-assets/voice-command.png
-```
+<img width="1900" height="907" alt="Screenshot 2026-07-07 155529" src="https://github.com/user-attachments/assets/287e574c-8b94-43c4-8cd3-977a1aaf5f6e" />
 
 ---
 
-### 🤖 AI Response
+### 🤖 Choose Avtaar and Name
 
-```text
-assets/response.png
-```
+<img width="1918" height="911" alt="Screenshot 2026-07-07 155442" src="https://github.com/user-attachments/assets/3c300057-35f9-482d-989b-91129d8ec380" />
+
+<img width="1918" height="908" alt="Screenshot 2026-07-07 155504" src="https://github.com/user-attachments/assets/0fed8ed8-e4bf-4ec6-af48-f44c2490aaa9" />
 
 ---
 
