@@ -25,7 +25,7 @@
 
 # 🧠 About the Project
 
-**Virtual Assistant** is a modern AI-powered web application that allows users to interact completely through **voice commands** or **text input**.
+**Virtual Assistant** is a modern AI-powered SaaS application that allows users to interact completely through **voice commands** or **text input**.
 
 Instead of behaving like a simple chatbot, the assistant understands user intent using **Google Gemini AI**, performs predefined actions, opens popular websites, answers general queries, and replies naturally using **speech synthesis**.
 
