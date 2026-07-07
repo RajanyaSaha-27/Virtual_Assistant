@@ -114,40 +114,99 @@ Never lose your conversations.
 
 ---
 
-# 🏗️ System Architecture
+# 🏛 System Architecture
 
 ```text
-                    USER
-                     │
-         🎤 Voice / ⌨️ Text Input
+                               ┌──────────────────────────┐
+                               │          USER            │
+                               └────────────┬─────────────┘
+                                            │
+                   Login / Signup / Voice / Text Commands
+                                            │
+                                            ▼
+                          ┌──────────────────────────────┐
+                          │   React + Vite Frontend      │
+                          │                              │
+                          │ • Authentication UI          │
+                          │ • Assistant Customization    │
+                          │ • Chat Interface             │
+                          │ • Voice Recognition          │
+                          │ • Text-to-Speech             │
+                          └────────────┬─────────────────┘
+                                       │
+                              Axios HTTP Requests
+                                       │
+                                       ▼
+                          ┌──────────────────────────────┐
+                          │     Express.js Backend       │
+                          │                              │
+                          │ • REST APIs                 │
+                          │ • JWT Authentication        │
+                          │ • Business Logic            │
+                          │ • AI Request Handling       │
+                          └──────┬───────────┬──────────┘
+                                 │           │
+                  ┌──────────────┘           └───────────────┐
+                  ▼                                          ▼
+      ┌──────────────────────┐                 ┌────────────────────────┐
+      │      MongoDB         │                 │      Cloudinary        │
+      │                      │                 │                        │
+      │ • User Accounts      │                 │ • Assistant Avatar     │
+      │ • Chat History       │                 │ • Image Storage        │
+      │ • Assistant Profile  │                 └────────────────────────┘
+      └──────────┬───────────┘
+                 │
+                 ▼
+      ┌──────────────────────────────┐
+      │     Google Gemini API        │
+      │                              │
+      │ • Natural Language AI        │
+      │ • Intent Detection           │
+      │ • Response Generation        │
+      └──────────────┬───────────────┘
                      │
                      ▼
-          Speech Recognition API
+      ┌──────────────────────────────┐
+      │ AI Response + Voice Output   │
+      │                              │
+      │ • Display Response           │
+      │ • Speak Response             │
+      │ • Save Conversation History  │
+      └──────────────┬───────────────┘
                      │
                      ▼
-              React Frontend
-                     │
-             Axios HTTP Request
-                     │
-                     ▼
-           Express.js Backend API
-                     │
-                     ▼
-         Google Gemini AI Model
-                     │
-          Intent + Response Generation
-                     │
-                     ▼
-        Structured JSON Response
-                     │
-                     ▼
-         Text Display + Voice Output
-                     │
-                     ▼
-                  USER
+                 ┌────────┐
+                 │  USER  │
+                 └────────┘
 ```
-
 ---
+### 🔄 Data Flow
+
+```text
+User
+   │
+   ▼
+React Frontend
+   │
+   ▼
+Express Backend
+   │
+   ├──► JWT Authentication
+   ├──► MongoDB (User & History)
+   ├──► Cloudinary (Assistant Avatar)
+   └──► Google Gemini API
+               │
+               ▼
+      AI Generated Response
+               │
+               ▼
+Speech Synthesis + UI Update
+               │
+               ▼
+Save Conversation History
+```
+---
+
 
 # 🔄 Application Workflow
 
