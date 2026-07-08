@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎙️ Virtual Assistant
+# 🎙️ EchoAI (Virtual Assistant)
 
 ### *Your AI-Powered Voice Companion Built with MERN & Google Gemini*
 
